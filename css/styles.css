@@ -150,7 +150,7 @@ body {
   max-width: 1440px;
   background-image: url(../images/hero/people-office.jpg), url(../images/hero/dark-bg.jpg);
   background-size: 1440px, cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat, no-repeat;
 }
 
 .hero-headline {
@@ -198,6 +198,12 @@ body {
 .features-list .list-item {
   width: calc((100% - 72px) / 4);
   flex-basis: auto;
+}
+
+.list-item svg {
+  width: 264px;
+  height: 112px;
+  border-radius: 4px;
 }
 
 .features-headline {
@@ -321,9 +327,11 @@ body {
   max-width: 1128px;
 }
 
-.customers-item {
+.customers-item svg {
   width: 168px;
   height: 88px;
+  border: 1px solid #8E8F99;
+  border-radius: 4px;
 }
 
 /* Footer */
@@ -359,10 +367,13 @@ body {
   color: var(--light);
 }
 
+.footer-media {
+  margin-left: 540px;
+}
+
 .footer-socials {
   list-style: none;
   display: flex;
-  justify-content: right;
   gap: 16px;
 }
 
