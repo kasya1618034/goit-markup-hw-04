@@ -297,13 +297,17 @@ body {
 
 .team-socials {
   list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 
 .team-socials-item {
   display: inline-block;
+  flex-basis: auto;
 }
 
-.team-socials-item svg{
+.team-socials-item svg {
   width: 40px;
   height: 40px;
 }
