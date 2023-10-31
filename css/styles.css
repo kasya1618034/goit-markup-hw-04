@@ -339,10 +339,11 @@ body {
   border-radius: 4px;
 }
 
-.customers-item:hover svg,
-.customers-item:focus svg {
+.icon-client:hover ,
+.icon-client:focus {
   fill: var(--pressed-state);
 }
+
 
 /* Footer */
 .page-footer {
