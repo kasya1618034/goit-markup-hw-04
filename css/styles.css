@@ -188,10 +188,6 @@ body {
 
 /* Section Features*/
 
-.features .list {
-  list-style: none;
-}
-
 .features-list {
   list-style: none;
   display: flex;
@@ -239,12 +235,12 @@ body {
   flex-basis: auto;
 }
 
-.doing-headline {
+.sections-headline {
   font-weight: 700;
   font-size: 36px;
-  letter-spacing: 0.02em;
   line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark-color);
   margin-bottom: 72px;
@@ -253,16 +249,6 @@ body {
 /* our team*/
 .team {
   background-color: var(--light);
-}
-
-.team-headline {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--dark-color);
-  margin-bottom: 72px;
 }
 
 .team-card.list {
@@ -309,6 +295,33 @@ body {
   text-align: center;
 }
 
+.team-socials {
+  list-style: none;
+}
+
+.team-socials-item {
+  display: inline-block;
+}
+
+.team-socials-item svg{
+  width: 40px;
+  height: 40px;
+}
+
+/* Customers */
+.customers-list {
+  gap: 24px;
+}
+
+.customers .container {
+  max-width: 1128px;
+}
+
+.customers-item {
+  width: 168px;
+  height: 88px;
+}
+
 /* Footer */
 .page-footer {
   color: var(--light);
@@ -340,6 +353,18 @@ body {
 
 .footer-paragraph {
   color: var(--light);
+}
+
+.footer-socials {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  gap: 16px;
+}
+
+.footer-socials-item svg {
+  width: 40px;
+  height: 40px;
 }
 
 /* portfolio */
