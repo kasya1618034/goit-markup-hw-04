@@ -58,9 +58,7 @@ body {
 
 .page-header {
   border-bottom: 1px solid var(--accent-color);
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 1px 6px rgba(46, 47, 66, 0, 08);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0, 08);
 }
 
 .page-header .container {
@@ -153,9 +151,9 @@ body {
   padding: 188px 0;
   max-width: 1440px;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/people-office.jpg), url(../images/hero/dark-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center, center;
-  background-repeat: no-repeat, no-repeat;
   opacity: 0, 70%;
   width: 100%;
 }
@@ -369,11 +367,11 @@ body {
 .page-footer .container {
   display: flex;
   gap: 120px;
-  vertical-align: baseline;
+  align-items: baseline;
 }
 
-.page-footer p {
-  width: 264px;
+.footer-text {
+  gap: 120px;
 }
 
 .page-footer .logo {
@@ -395,6 +393,7 @@ body {
 
 .footer-paragraph {
   color: var(--light);
+  width: 264px;
 }
 
 .social-paragraph {
@@ -424,16 +423,17 @@ body {
   justify-content: center;
 }
 
-.footer-link .footer-icon {
+.footer-link:hover,
+.footer-link:focus {
+  background-color: var(--#31D0AA);
+}
+
+.footer-link .footer-icon svg {
   width: 24px;
   height: 24px;
   fill: var(--light);
 }
 
-.footer-link:hover,
-.footer-link:focus{
-  fill: var(--#31D0AA);
-}
 
 /* portfolio */
 
