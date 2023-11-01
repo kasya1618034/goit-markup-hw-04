@@ -390,6 +390,7 @@ body {
 .social-paragraph {
   font-weight: 500;
   color: var(--white);
+  margin-bottom: 16px;
 }
 
 .footer-socials {
