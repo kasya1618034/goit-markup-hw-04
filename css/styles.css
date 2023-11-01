@@ -387,6 +387,11 @@ body {
   color: var(--light);
 }
 
+.social-paragraph {
+  font-weight: 500;
+  color: var(--white);
+}
+
 .footer-socials {
   list-style: none;
   display: flex;
