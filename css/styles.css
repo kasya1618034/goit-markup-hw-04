@@ -414,17 +414,16 @@ body {
   justify-content: center;
 }
 
-.footer-link svg {
+.footer-link .footer-icon {
   width: 24px;
   height: 24px;
+  fill: var(--light);
 }
 
 .footer-link:hover,
 .footer-link:focus{
   fill: var(--#31D0AA);
 }
-
-
 
 /* portfolio */
 
