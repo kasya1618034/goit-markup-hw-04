@@ -359,6 +359,7 @@ body {
 .page-footer .container {
   display: flex;
   gap: 120px;
+  vertical-align: baseline;
 }
 
 .page-footer p {
@@ -463,6 +464,15 @@ body {
   border: 1px solid var(--accent-color);
   border-top: none;
   max-width: 360px;
+}
+
+.cards-item .link {
+  display: block;
+}
+
+.cards-item .link:hover,
+.cards-item .link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-headline {
