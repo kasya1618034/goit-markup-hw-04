@@ -427,9 +427,7 @@ body {
   background-color: var(--#31D0AA);
 }
 
-.footer-link .footer-icon svg {
-  width: 24px;
-  height: 24px;
+.footer-icon {
   fill: var(--light);
 }
 
