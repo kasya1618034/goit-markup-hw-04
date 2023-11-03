@@ -366,7 +366,7 @@ body {
 
 .page-footer .container {
   display: flex;
-  gap: 120px;
+  margin-right: 120px;
   align-items: baseline;
 }
 
