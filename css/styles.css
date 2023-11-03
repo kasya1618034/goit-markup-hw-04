@@ -355,6 +355,12 @@ body {
   max-width: 1128px;
 }
 
+.customers-item {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+  
+}
+
 .customers-item svg {
   width: 168px;
   height: 88px;
