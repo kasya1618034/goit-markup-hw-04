@@ -147,13 +147,13 @@ body {
 }
 
 /* Hero section */
-.hero .container {
+.hero {
   color: var(--white);
   padding: 188px 0;
-  max-width: 1440px;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/people-office.jpg), url(../images/hero/dark-bg.jpg);
-  background-position: center;
+  max-width: 1440px;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   opacity: 0, 70%;
   width: 100%;
@@ -290,6 +290,11 @@ body {
     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.team-socials-item {
+  width: 40px;
+  height: 40px;
+}
+
 .team-socials-link {
   width: 100%;
   height: 100%;
@@ -377,6 +382,7 @@ body {
   border-color: var(--pressed-state);
   color: var(--pressed-state); 
 }
+
 .icon-client {
   fill: currentColor;
 }
