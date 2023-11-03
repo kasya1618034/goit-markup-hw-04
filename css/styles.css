@@ -366,12 +366,11 @@ body {
 
 .page-footer .container {
   display: flex;
-  margin-right: 120px;
   align-items: baseline;
 }
 
 .footer-text {
-  gap: 120px;
+  margin-right: 120px;
 }
 
 .page-footer .logo {
@@ -424,7 +423,7 @@ body {
 }
 
 .footer-link:hover,
-.footer-link:focus {
+.footer-link:active {
   background-color: var(--#31D0AA);
 }
 
@@ -464,7 +463,7 @@ body {
 }
 
 .filters-btn:hover,
-.filters-btn:focus {
+.filters-btn:active {
   color: var(--white);
   background-color: var(--pressed-state);
   border: 1px solid transparent;
