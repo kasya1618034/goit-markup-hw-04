@@ -369,7 +369,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--)
+  color: var(--subtle-text);
+}
+
+.customers-link:hover,
+.customers-link:active {
+  border-color: var(--pressed-state);
+  color: var(--pressed-state); 
+}
+.icon-client {
+  fill: currentColor;
 }
 
 .icon-client:hover ,
