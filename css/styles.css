@@ -383,6 +383,7 @@ body {
 }
 
 .customers-link:hover,
+.customers-link:focus,
 .customers-link:active {
   border-color: var(--pressed-state);
   color: var(--pressed-state); 
@@ -505,6 +506,7 @@ body {
 }
 
 .filters-btn:hover,
+.filters-btn:focus,
 .filters-btn:active {
   color: var(--white);
   background-color: var(--pressed-state);
